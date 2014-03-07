@@ -1,0 +1,14 @@
+{
+  "name": "unregistered",
+  "main": "./lib/unregistered",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Are you missing the annoying popup from sublime text?",
+  "repository": "https://github.com/thiagopnts/unregistered",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
