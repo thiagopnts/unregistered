@@ -15,7 +15,7 @@ module.exports =
 
   showDialog: ->
     @count = 0
-    confirm @message
+    open 'https://github.com/thiagopnts/unregistered' if confirm @message
 
   counter: ->
     @showDialog() if ++@count > 1000
