@@ -13,7 +13,7 @@ module.exports =
 
   activate: (state) ->
     @count = state.count or 0
-    atom.workspaceView.on('keydown', @counter.bind(@))
+    atom.views.getView(atom.workspace).on('keydown', @counter.bind(@))
 
   serialize: -> count: @count
 
